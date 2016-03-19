@@ -1,0 +1,72 @@
+<div class="container-fluid">
+    <div class="row">
+        <style>
+            ul {
+                list-style-type: none;
+                padding: 20px;
+                margin: 20px;
+            }
+
+            li {
+
+                border: 1px solid green;
+            }
+
+        </style>
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+            <!--Body content-->
+
+            <form ng-submit="answerSubmit()">
+                <ul class="questions">
+                    <li ng-repeat="question in questions">
+                        <div class="col-md-2">
+                            <span> Question {{$index +1 }} </span>
+                        </div>
+                        <div class="col-md-10">
+                            <span href="#/questions/{{question.title}}">{{question.title}}</span>
+                            <!--<div class="radios" ng-repeat="option in question.options">-->
+                                <!--<input type="radio" id="{{$index}}" name="radioValue" ng-value="{{$index}}"-->
+                                       <!--ng-model="question.selectedOption" required/>-->
+                                <!--<label for="{{$index}}">{{option.values}}</label>-->
+                                <!--<br>-->
+                            <!--</div>-->
+
+                            <div ng-repeat="option in question.options" class="row-fluid">
+                                <label><input type="radio" name="meaningless{{question.id}}" ng-value="{{$index}}" ng-model="question.selectedOption" />
+                                    &nbsp;<span ng-bind="option.values"></span></label>
+                            </div>
+                            <p> Which graph is applicable for the above question</p>
+                            <div class="dropdown">
+                                <select name="cars" ng-model="question.selectedChart">
+                                    <option value="{{chart.value}}" ng-repeat="chart in question.charts" required>
+                                        {{chart.name}}
+                                    </option>
+                                </select>
+                            </div>
+                            <br>
+                            <br>
+                            <br>
+                        </div>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <!--<div ac-chart="chartType" ac-data="chartData" ac-config="chartConfig" id='chart' class='chart'></div>-->
+                    </li>
+                </ul>
+                <input class="btn btn-success center-block" type="submit" id="submit" value="Submit"/>
+                <br>
+                <br>
+                <br>
+            </form>
+        </div>
+    </div>
+</div>

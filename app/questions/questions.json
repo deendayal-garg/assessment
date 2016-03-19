@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "title": "What is the male to female ratio in bangalore?",
+    "options": [
+      {
+        "type": "radio",
+        "values": "Male - 40% , Female - 60%",
+        "data": {
+        }
+      },
+      {
+        "type": "radio",
+        "values": "Male - 50% , Female - 50%"
+      },
+      {
+        "type": "radio",
+        "values": "Male - 30% , Female - 70%"
+      },
+      {
+        "type": "radio",
+        "values": "Male - 60% , Female - 40%"
+      }
+    ],
+    "charts": [
+      {
+        "name": "Pie Chart",
+        "value": "pie"
+      },
+      {
+        "name": "Line Chart",
+        "value": "line"
+      },
+      {
+        "name": "Column Chart",
+        "value": "bar"
+      },
+      {
+        "name": "Scatter Chart",
+        "value": "point"
+      },
+      {
+        "name": "Area Chart",
+        "value": "area"
+      }
+    ],
+    "selectedOption": -1,
+    "selectedChart": -1
+  },
+  {
+    "id": 2,
+    "title": "What is the male to female ratio in bangalore?",
+    "selectedOption": -1,
+    "selectedChart": -1,
+    "options": [
+      {
+        "type": "radio",
+        "values": "Male - 40% , Female - 60%",
+        "data": {
+        }
+      },
+      {
+        "type": "radio",
+        "values": "Male - 50% , Female - 50%"
+      },
+      {
+        "type": "radio",
+        "values": "Male - 30% , Female - 70%"
+      },
+      {
+        "type": "radio",
+        "values": "Male - 60% , Female - 40%"
+      }
+    ],
+    "charts": [
+      {
+        "name": "Pie Chart",
+        "value": "pie"
+      },
+      {
+        "name": "Line Chart",
+        "value": "line"
+      },
+      {
+        "name": "Column Chart",
+        "value": "bar"
+      },
+      {
+        "name": "Scatter Chart",
+        "value": "point"
+      },
+      {
+        "name": "Area Chart",
+        "value": "area"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "What is the male to female ratio in bangalore?",
+    "selectedOption": -1,
+    "selectedChart": -1,
+    "options": [
+      {
+        "type": "radio",
+        "values": "Male - 40% , Female - 60%",
+        "data": {
+        }
+      },
+      {
+        "type": "radio",
+        "values": "Male - 50% , Female - 50%"
+      },
+      {
+        "type": "radio",
+        "values": "Male - 30% , Female - 70%"
+      },
+      {
+        "type": "radio",
+        "values": "Male - 60% , Female - 40%"
+      }
+    ],
+    "charts": [
+      {
+        "name": "Pie Chart",
+        "value": "pie"
+      },
+      {
+        "name": "Line Chart",
+        "value": "line"
+      },
+      {
+        "name": "Column Chart",
+        "value": "bar"
+      },
+      {
+        "name": "Scatter Chart",
+        "value": "point"
+      },
+      {
+        "name": "Area Chart",
+        "value": "area"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "What is the male to female ratio in bangalore?",
+    "selectedOption": -1,
+    "selectedChart": -1,
+    "options": [
+      {
+        "type": "radio",
+        "values": "Male - 40% , Female - 60%",
+        "data": {
+        }
+      },
+      {
+        "type": "radio",
+        "values": "Male - 50% , Female - 50%"
+      },
+      {
+        "type": "radio",
+        "values": "Male - 30% , Female - 70%"
+      },
+      {
+        "type": "radio",
+        "values": "Male - 60% , Female - 40%"
+      }
+    ],
+    "charts": [
+      {
+        "name": "Pie Chart",
+        "value": "pie"
+      },
+      {
+        "name": "Line Chart",
+        "value": "line"
+      },
+      {
+        "name": "Column Chart",
+        "value": "bar"
+      },
+      {
+        "name": "Scatter Chart",
+        "value": "point"
+      },
+      {
+        "name": "Area Chart",
+        "value": "area"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "What is the male to female ratio in bangalore?",
+    "selectedOption": -1,
+    "selectedChart": -1,
+    "options": [
+      {
+        "type": "radio",
+        "values": "Male - 40% , Female - 60%",
+        "data": {
+        }
+      },
+      {
+        "type": "radio",
+        "values": "Male - 50% , Female - 50%"
+      },
+      {
+        "type": "radio",
+        "values": "Male - 30% , Female - 70%"
+      },
+      {
+        "type": "radio",
+        "values": "Male - 60% , Female - 40%"
+      }
+    ],
+    "charts": [
+      {
+        "name": "Pie Chart",
+        "value": "pie"
+      },
+      {
+        "name": "Line Chart",
+        "value": "line"
+      },
+      {
+        "name": "Column Chart",
+        "value": "bar"
+      },
+      {
+        "name": "Scatter Chart",
+        "value": "point"
+      },
+      {
+        "name": "Area Chart",
+        "value": "area"
+      }
+    ]
+  }
+]
